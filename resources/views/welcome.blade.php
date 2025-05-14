@@ -83,10 +83,10 @@
     <div x-show="dropdownOpen"
          x-transition
          class="absolute mt-2 w-56 bg-white shadow-md rounded z-10">
-        <a href="#" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Inter</a>
-        <a href="#" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Intra</a>
-        <a href="#" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Sur mesure</a>
-        <a href="#" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">A distance</a>
+        <a href="#inter" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Inter</a>
+        <a href="#intra" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Intra</a>
+        <a href="#sur-mesure" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">Sur mesure</a>
+        <a href="#a-distance" class="block px-4 py-2 hover:bg-[#a3021b] hover:text-white">A distance</a>
     </div>
 </div>
 
@@ -201,10 +201,10 @@
             Nos Solutions
         </button>
         <div x-show="openMenu === 2" class="pl-4 mt-1 space-y-1">
-            <a href="#" class="block text-gray-600 hover:text-[#a3021b]">Inter</a>
-            <a href="#" class="block text-gray-600 hover:text-[#a3021b]">Intra</a>
-            <a href="#" class="block text-gray-600 hover:text-[#a3021b]">Sur mesure</a>
-            <a href="#" class="block text-gray-600 hover:text-[#a3021b]">À distance</a>
+            <a href="#inter" class="block text-gray-600 hover:text-[#a3021b]">Inter</a>
+            <a href="#intra" class="block text-gray-600 hover:text-[#a3021b]">Intra</a>
+            <a href="#sur-mesure" class="block text-gray-600 hover:text-[#a3021b]">Sur mesure</a>
+            <a href="#a-distance" class="block text-gray-600 hover:text-[#a3021b]">À distance</a>
         </div>
     </div>
 
@@ -730,7 +730,7 @@
   <div class="bg-[#f1f5f9] py-20">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 px-4">
   
-      <div class="w-full md:w-1/3 sticky top-24 ">
+      <div class="w-full md:w-1/3  ">
         <div class="space-y-8">
        
           <form class="flex border border-gray-300 rounded overflow-hidden shadow-sm">
@@ -893,86 +893,300 @@
   </div>
 </section>
 <section class="bg-[#a3021b]">
-  <div class=" max-w-7xl mx-auto text-white py-20 flex gap-20 ">
-    <div class="w-1/2">
-         <div class="">
-             <a href="" class="hover:underline">Formation inter entreprise</a><span> > </span>
-             <a href="" class="hover:underline">Formation inter entreprise</a>
-         </div>
-            <p class="">Gestion de la diversité et inclusion en milieu professionnel</p>
-           
-         <div class="flex py-4 gap-2">
-             <div class="border border-white rounded px-2 w-fit"><p>debutant</p></div>
-             <div class="border border-white rounded px-2 w-fit"><p>date formation</p></div>
-             <div class="border border-white rounded px-2 w-fit"> <p>prix formation</p></div>
-         </div>
-         <h1 class="font-bold text-4xl">Gestion de la diversité et inclusion en milieu professionnel</h1>
-         <p>Formateur : MIATA FCR</p>
-         <div class=" mt-8">
-          <a href="#"
-              class="inline-block text-[#a3021b] bg-white hover:text-[#a3021b] text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 font-bold rounded-lg hover:bg-white transition">
-              Voir Plus
-          </a>
-  </div>
+ 
+  <div class="max-w-7xl mx-auto text-white py-20 flex flex-col lg:flex-row gap-10 lg:gap-20 px-4">
+  
+    <div class="w-full lg:w-1/2">
+      <div class="text-sm pb-4">
+        <a href="#" class="hover:underline">Formation inter entreprise</a><span> > </span>
+        <a href="#" class="hover:underline">Formation intra entreprise</a>
+      </div>
+      <p class="text-lg font-semibold">Gestion de la diversité et inclusion en milieu professionnel</p>
+
+      <div class="flex flex-wrap py-4 gap-2">
+        <div class="border border-white rounded px-2 py-1 w-fit"><p>débutant</p></div>
+        <div class="border border-white rounded px-2 py-1 w-fit"><p>date formation</p></div>
+        <div class="border border-white rounded px-2 py-1 w-fit"><p>prix formation</p></div>
+      </div>
+
+      <h1 class="font-bold text-3xl sm:text-4xl mb-4">Gestion de la diversité et inclusion en milieu professionnel</h1>
+      <p class="mb-4">Formateur : MIATA FCR</p>
+
+      <a href="#"
+         class="inline-block text-[#a3021b] bg-white text-sm sm:text-base px-6 py-3 font-bold rounded-lg hover:bg-white transition">
+         Voir Plus
+      </a>
+    </div>
+
     
+    <div class="w-full lg:w-1/2">
+      <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt=""
+           class="w-full h-64 sm:h-80 object-cover rounded-lg">
     </div>
-    <div class="w-1/2">
-            <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt="" class="w-full h-80  object-cover rounded-lg">
-    </div>
-   
-
-
   </div>
+
   <div class="bg-[#f1f5f9] py-20">
-
-  <div class="max-w-7xl mx-auto  flex gap-8 ">
-    <div class="w-2/3 flex flex-col gap-8 ">
-      <div class="border rounded-lg bg-white p-8 ">
-        <h2 class="font-bold text-2xl pb-4">Objectif de la formation</h2>
-         <ul> 
-           <li>S’approprier le cadre juridique et le contexte sociétal.</li>
-           <li>Identifier les conditions favorables à une politique diversité..</li>
-           <li>Mettre en place et déployer une culture inclusive. </li>
-           <li> Piloter la démarche : acteurs et indicateurs</li>
-         </ul>
-      </div>
-
-      <div class="border rounded-lg bg-white p-8 ">
-        <h2 class="font-bold text-2xl pb-4">programme</h2>
-         
-          <p class="font-bold py-4">COMPRENDRE LE FONCTIONNEMENT D’UN CONFLIT EN ENTREPRISE</p>
-            <ul>
-              <li>Retour sur les expériences vécues : identifier et comprendre les causes possibles d’un conflit interne
-              <li>Appréhender la notion de conflits dans une entreprise, qu’est-ce qu’un conflit professionnel ?</li>
-              <li>Focus sur le principe de conflit et compétition</li>
-              <li>Focus sur le principe de conflit et coopération</li>
-              <li>Focus sur les différents types de conflit : intrapsychiques, interpersonnels et inter- groupes, extrinsèques et émotionnels, conflits d’intérêts et d’opinions, conflits fonctionnels et dysfonctionnels, conflits constructifs et destructifs</li>
-            </li>
-            </ul>
-        
-      </div>
-        
-    </div>
-    <div class="w-1/3  h-fit border bg-white p-4 rounded-lg">
-      <p>date formati</p>
-      <p>formation date</p>
-
-       <div class=" mt-8">
-          <a href="#"
-              class="inline-block bg-[#a3021b]  w-full text-white text-center hover:text-white text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 font-bold rounded-lg hover:bg-[#a3021b] transition">
-              Voir Plus
-          </a>
-        </div>
-    </div>
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8">
     
-  </div>
+    
+      <div class="w-full lg:w-2/3 flex flex-col gap-8">
+        <div class="border rounded-lg bg-white p-6 sm:p-8">
+          <h2 class="font-bold text-xl sm:text-2xl pb-4">Objectif de la formation</h2>
+          <ul class="list-disc pl-5 space-y-2 text-sm sm:text-base">
+            <li>S’approprier le cadre juridique et le contexte sociétal.</li>
+            <li>Identifier les conditions favorables à une politique diversité.</li>
+            <li>Mettre en place et déployer une culture inclusive.</li>
+            <li>Piloter la démarche : acteurs et indicateurs.</li>
+          </ul>
+        </div>
 
-  </div>
+        <div class="border rounded-lg bg-white p-6 sm:p-8">
+          <h2 class="font-bold text-xl sm:text-2xl pb-4">Programme</h2>
+          <p class="font-bold py-4">COMPRENDRE LE FONCTIONNEMENT D’UN CONFLIT EN ENTREPRISE</p>
+          <ul class="list-disc pl-5 space-y-2 text-sm sm:text-base">
+            <li>Retour sur les expériences vécues : identifier et comprendre les causes possibles d’un conflit interne.</li>
+            <li>Appréhender la notion de conflits dans une entreprise : qu’est-ce qu’un conflit professionnel ?</li>
+            <li>Focus sur le principe de conflit et compétition.</li>
+            <li>Focus sur le principe de conflit et coopération.</li>
+            <li>Focus sur les différents types de conflit : intrapsychiques, interpersonnels, intergroupes, extrinsèques, émotionnels, conflits d’intérêts et d’opinions, fonctionnels et dysfonctionnels, constructifs et destructifs.</li>
+          </ul>
+        </div>
+      </div>
 
+      
+      <div class="w-full lg:w-1/3 h-fit border bg-white p-6 sm:p-8 rounded-lg">
+        <p class="mb-2">Date formation</p>
+        <p class="mb-6">Formation date</p>
+        <a href="#"
+           class="inline-block bg-[#a3021b] w-full text-white text-center text-sm sm:text-base px-6 py-3 font-bold rounded-lg hover:bg-[#a3021b] transition">
+           Voir Plus
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
 
+<section class="bg-white">
+  <article id="inter" class="scroll-mt-20">
+ <!-- Première section -->
+ <div  class="max-w-7xl mx-auto text-black py-20 flex flex-col lg:flex-row gap-10 lg:gap-20 items-center justify-center px-4">
+    <!-- Texte -->
+    <div class="w-full lg:w-1/2">
+      <h1 class="font-bold text-2xl sm:text-3xl pb-4 text-center lg:text-left">
+        Formation continue : <br> Former en inter et en intra
+      </h1>
+      <div class="space-y-4 text-sm sm:text-base">
+        <p>MIATA FCR, organisme de formation à Dakar et en régions</p>
+        <p>MIATA FCR est l’organisme de formation qui propose l’offre la plus complète à Dakar et en régions en présentiel ou à distance.</p>
+        <p>Découvrez la formation professionnelle chez MIATA FCR.</p>
+        <p>Les centres de formations MIATA FCR respectent un protocole sanitaire strict pour vous accueillir en toute sécurité.</p>
+        <p>Un large choix vous est proposé dans les domaines clés tels que le management, le développement personnel, la vente, la négociation commerciale, le marketing… à travers plusieurs formats : formations présentielles, formations mixtes, Full Digital, classes à distance…</p>
+        <p>En vous formant avec MIATA FCR, vous bénéficiez d’une pédagogie innovante avec des solutions « mixtes », présentielles, e-learning et à distance.</p>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="w-full lg:w-1/2">
+      <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt="" class="w-full h-64 sm:h-80 object-cover rounded-lg">
+    </div>
+  </div>
+  </article>
+  <article id="intra" class="scroll-mt-20"> 
+ <!-- Deuxième section -->
+ <div  class="max-w-7xl mx-auto text-black  flex flex-col-reverse lg:flex-row gap-10 lg:gap-20 px-4 items-center justify-center pb-10">
+    <!-- Image -->
+    <div class="w-full lg:w-1/2">
+      <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt="" class="w-full h-64 sm:h-80 object-cover rounded-lg">
+    </div>
+
+    <!-- Texte -->
+    <div x-data="{ showMore: false }" class="w-full lg:w-1/2 space-y-4 text-sm sm:text-base">
+  <h2 class="font-bold text-2xl sm:text-3xl pb-4 text-center lg:text-left">La Formation intra entreprise</h2>
+
+  <!-- Partie toujours visible -->
+  <h3 class="font-bold">Toutes les réponses aux questions que vous vous posez sur la formation intra entreprise.</h3>
+  <p>
+    Avec la formation intra entreprise, organisez chez vous, pour plusieurs collaborateurs et à la date de votre choix
+    la formation qui vous convient. Chez MIATA FCR, organisme de formation leader, chacune des 900 formations du catalogue est disponible en intra entreprise.
+  </p>
+
+  <h4 class="font-bold text-center lg:text-left">Définition : qu’est-ce qu’une formation intra entreprise ?</h4>
+    <p>
+      La formation intra entreprise est une formation issue du catalogue MIATA FCR mise en place au sein de votre organisation. À la différence de la formation inter entreprise qui est dispensée dans nos centres pour plusieurs organisations, la formation intra entreprise se déroule dans vos locaux, dans le lieu de votre choix ou à distance. Coût réduit, souplesse, cohésion interne… la formation intra entreprise présente de nombreux avantages.
+    </p>
+
+  <!-- Partie cachée / affichée -->
+  <div x-show="showMore" x-transition.duration.300ms>
+   
+    <p>
+      Si vous souhaitez un programme de formation sur-mesure, MIATA FCR met son expertise au service de cette solution. Pour en savoir plus, retrouvez toutes les infos sur les solutions sur-mesure ici.
+    </p>
+    <h4 class="font-bold text-center lg:text-left py-4">Formations inter ou intra : les avantages des formations intra entreprise ?</h4>
+    <p>Les formations intra disposent de 4 avantages clés en termes de coût, de souplesse, de rapidité de mise en œuvre et de renforcement de la cohésion interne.</p>
+    <h4 class="font-bold text-center lg:text-left py-4"> Coût réduit</h4>
+    <p>Ce sont les clients qui le disent : le premier avantage de la formation intra est financier. Pas de mauvaise surprise : le coût de la formation est indiqué sur notre site web. Seuls les frais de déplacement éventuels du formateur sont à prévoir en plus. A partir de 4 collaborateurs et dans la limite de 12, la formation intra entreprise s’impose comme la solution la plus économique.</p>
+    <h4 class="font-bold text-center lg:text-left py-4">Souplesse d’organisation</h4>
+    <p>Vous choisissez la date, le lieu et l’horaire de la formation en fonction de vos contraintes.</p>
+    <h4 class="font-bold text-center lg:text-left py-4">    Rapidité de mise en œuvre</h4>
+    <p>Le programme, développé par les experts MIATA FCR, est livré « clé en main ». La formation est dispensée selon les standards qualité d’exigence propres à toutes les formations MIATA FCR. Un devis, des dates ainsi qu’un consultant-vous sont proposés dans les meilleurs délais.</p>
+    <h4 class="font-bold text-center lg:text-left py-4">Renforcement de la cohésion interne</h4>
+    <p>Parce que les participants viennent de la même organisation, ils partagent une même culture d’entreprise. La possibilité de réunir ensemble des collaborateurs d’une même organisation permet aussi de renforcer les liens, les synergies sur un projet par exemple, et bien sûr la cohésion interne. En intra, il est plus facile de contextualiser la formation avec les enjeux propres à l’entreprise.</p>
+   <h3 class="font-bold">Pourquoi faire appel à MIATA FCR pour votre formation intra entreprise ?</h3>
+   
+    <h4 class="font-bold text-center lg:text-left py-4 underline">Un tarif clair pour une solution intra clé en main</h4>
+    <p>Les formations intra entreprise de MIATA FCR sont proposées à un tarif forfaitaire, clairement prouvé. Ce tarif comprend :</p>
+    <ul class="list-disc pl-8">
+    
+      <li>Une session de formation dans vos locaux ou à distance ou dans nos locaux</li>
+      <li>La possibilité de former jusqu’à 12 personnes par session</li>
+      <li>L’animation de la formation intra par un formateur habilité</li>
+      <li>L’ensemble des supports de la formation au format électronique</li>
+      <li>L’évaluation dématérialisée de la satisfaction à l’issue de la formation.</li>
+      <li>La liste d’émargement dématérialisée.</li>
+    </ul>
+    <p>Si vous souhaitez aller plus loin et adapter davantage la formation à votre contexte, les ingénieurs commerciaux sur-mesure vous accompagnent pour étudier votre besoin.</p>
+    <h4 class="font-bold text-center lg:text-left py-4 underline">Votre devis en 1 clic</h4>
+     <p>Demandez votre devis en ligne via l’onglet <strong>“Intra”</strong> des programmes de formation. Le devis est gratuit et sans engagement.</p>
+    <h4 class="font-bold text-center lg:text-left py-4 underline">Une réponse commerciale sous 48 h</h4>
+    <p>Une fois reçu votre devis, un ingénieur commercial vous rappelle sous 48 heures pour affiner votre demande (choix de la date, modalité présentielle ou distancielle, le lieu, options complémentaires…) et finaliser votre commande. La possibilité de fixer un rendez-vous téléphonique vous est proposée dès l’envoi de votre devis.</p>
+    <h4 class="font-bold text-center lg:text-left py-4 underline">Le choix des formats de formations en intra aussi</h4>
+    <p>L’ensemble des 550 formations MIATA FCR est disponible en intra entreprise dans tout le Sénégal.  95% des formations MIATA FCR sont disponibles en distanciel. MIATA FCR propose plusieurs formats de formations digitales en intra entreprise :</p>
+    <ul class="list-disc pl-8">
+      <li>Les <strong>classes Intra</strong>dans vos locaux, nos locaux ou un hôtel de la place</li>
+      <li>Les <strong>classes à distance </strong> : interactives, elles recréent en digital l’environnement du présentiel. Durée et qualité pédagogique identique.</li>
+      <li>Les formations <strong>Full Digital </strong> : une formation de 12 h sur 2 journées en groupe avec 2 classes virtuelles et des séquences d’entraînements</li>
+      <li>Les parcours #Up : un parcours personnalisable pour se former aux « soft skills ».</li>
+    </ul>
+    <h4 class="font-bold text-center lg:text-left py-4 underline">La garantie qualité d’un réseau de formateurs unique</h4>
+    <p>Avec plus de 105 formateurs externes, MIATA FCR dispose du plus grand réseau de formateurs réguliers et habilités pour animer des formations intra entreprises. En plus de l’expertise acquise par chaque formateur, le sérieux du processus de recrutement, d’habilitation et de formation des formateurs vous garantit un niveau de qualité élevé et homogène.</p>
+    <p>...</p>
+  </div>
+
+  <!-- Bouton -->
+   <div class="">
+   <button
+    @click="showMore = !showMore"
+    class="mt-4 inline-block bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-[#880015] transition"
+    x-text="showMore ? 'Voir moins' : 'Voir plus'"
+  ></button>
+   </div>
+ 
+</div>
+
+  </div>
+  </article>
+
+  <article id="sur-mesure" class="scroll-mt-20">
+     <!-- troisième section -->
+  <div  x-data="{ showMore: false }" class="max-w-7xl mx-auto text-black  flex flex-col lg:flex-row gap-10 lg:gap-20 items-center justify-center px-4 pb-10">
+    <!-- Texte -->
+    <div class="w-full lg:w-1/2">
+      <h1 class="font-bold text-2xl sm:text-3xl pb-4 text-center lg:text-left">
+        Formation Sur Mesure - Formation en intreprise </h1>
+     
+        <p>« Plus digitale, plus transverse, plus ouverte… Tout comme son environnement, votre organisation est toujours en mouvement. Dans ce contexte, l’adaptation rapide des équipes devient un facteur clé de compétitivité. Pour réussir, votre enjeu est double. D’abord, faire de la formation un investissement stratégique au service de la professionnalisation des équipes et donc de la réussite de votre organisation. Ensuite, prouver son efficacité et sa rentabilité. »</p>
+        <p><strong>Aissatou NDIAYE</strong>, Directrice conseil et formation en entreprise, membre du Directoire, MIATA FCR.</p>
+        <h4 class="font-bold text-center lg:text-left py-4 underline">Vos besoins de formation</h4>
+        <p>Chaque formation sur-mesure MIATA FCR est adaptée à la <strong>juste mesure des enjeux de votre entreprise </strong> et se met plus que jamais au service de la stratégie des dirigeants. Nous nous attachons à <strong> faire vivre aux apprenants des expériences originales et innovantes</strong>, pour les rendre acteurs de leur formation et leur permettre de s’approprier parfaitement les nouvelles pratiques.</p>
+        
+        
+        <div x-show="showMore" x-transition.duration.300ms>
+        <p><strong>Proposer une learning expérience stimulante et créatrice de valeur</strong></p>
+        <p> <strong>Réussir la transformation de votre organisation</strong></p>
+        <p><strong>Préparer les évolutions des métiers pour servir la performance</strong></p>
+        <h4>Je souhaite que MIATA FCR m’accompagne</h4>
+        <p>Vous souhaitez mettre en place une formation issue de notre catalogue au sein de votre organisation, c’est possible. Retrouvez toutes les informations sur la formation intra entreprise ici. </p>
+
+        <p><strong>Les points forts du sur-mesure MIATA FCR</strong></p>
+        <ul class="pl-8">
+          <li>Nous vous simplifions la mise en œuvre de votre projet sur mesure <strong>en vous accompagnant tout au long de la chaîne de valeur de la formation </strong>: ingénierie, contenu, pédagogie, pilotage, communication interne, logistique…</li>
+          <li>Spécialiste de la montée en compétences des collaborateurs, nous avons la juste réponse à vos besoins pour <strong>valoriser votre investissement.</strong></li>
+          <li>Co-Production : Vos attentes et nos convictions au service de votre projet</li>
+          <li>Pédagogie Innovante : Nous proposons des expériences originales et multimodales</li>
+          <li>Performance Learning : Des projets efficaces et mesurables avec un plan global d’évaluation</li>
+          <li>Pilotage de Projet : Nous avons l’expertise du pilotage avec toutes les parties prenantes</li>
+        </ul>
+
+        </div>
+
+         <!-- Bouton -->
+   <div class="">
+   <button
+    @click="showMore = !showMore"
+    class="mt-4 inline-block bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-[#880015] transition"
+    x-text="showMore ? 'Voir moins' : 'Voir plus'"
+  ></button>
+   </div>
+      
+    </div>
+
+    <!-- Image -->
+    <div class="w-full lg:w-1/2">
+      <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt="" class="w-full h-64 sm:h-80 object-cover rounded-lg">
+    </div>
+  </div>
+  </article>
+
+  <article id="a-distance" class="scroll-mt-20">
+<!-- Quatrième section -->
+<div  class="max-w-7xl mx-auto text-black  flex flex-col-reverse lg:flex-row gap-10 lg:gap-20 px-4 items-center justify-center pb-10">
+    <!-- Image -->
+    <div class="w-full lg:w-1/2">
+      <img src="{{ asset('build/assets/images/formation3.jpg') }}" alt="" class="w-full h-64 sm:h-80 object-cover rounded-lg">
+    </div>
+
+    <!-- Texte -->
+    <div x-data="{ showMore: false }" class="w-full lg:w-1/2 space-y-4 text-sm sm:text-base">
+  <h2 class="font-bold text-2xl sm:text-3xl pb-4 text-center lg:text-left">Formations 100% à Distance</h2>
+
+  <!-- Partie toujours visible -->
+  
+  <p>Retrouvez toutes nos formations</p>
+  <p>95% de nos formations sont disponibles en classe à distance</p>
+  <p>Vous former n’importe où, n’importe quand, en gardant de l’interaction avec votre formateur, c’est possible ! Pour répondre à vos besoins, MIATA FCFR a transformé de nombreuses sessions de formation en distanciel !</p>
+  <p>Découvrez toutes nos formations à distance</p>
+  <p>Découvrez comment fonctionnent nos formations à distance</p>
+  <h4 class="font-bold text-center lg:text-left">Des formations interactives, même à distance !</h4>
+  <p><strong> Nos formateurs sont formés à l’animation à distance</strong> et adaptent leurs approches pour favoriser un maximum <strong> d’interaction au sein du groupe </strong>: activités brise-glace, temps de partage d’expériences, exercices de groupe, sondage, tableau blanc, etc.</p>
+  
+Les échanges à distance deviennent paradoxalement plus libres et plus faciles !</p>
+  <!-- Partie cachée / affichée -->
+  <div x-show="showMore" x-transition.duration.300ms>
+  <p>La formation en distanciel permet également de se libérer des contraintes du présentiel : distanciation physique, gestes barrières, port du masque…</p>
+ 
+    <p> Les échanges à distance deviennent paradoxalement plus libres et plus faciles !</p>
+    <h4 class="font-bold text-center lg:text-left py-4">Une expérience apprenante unique !</h4>
+    <p>Les formations prévoient une alternance de temps de connexion en groupe et de séquences de déconnexion pour des travaux de mise en pratique individuels : vous n’aurez pas besoin de rester connecté</p>
+    <p>7h d’affilée par jour !</p>
+    <h4>Un prix qui inclut les services du distanciel !</h4>
+    <p>Il n’y a pas de différence de prix pour une même formation, qu’elle soit délivrée en présentiel ou à distance. Dans chaque cas, le prix de la formation inclut :</p>
+    <ul class="pl-4">
+      <li>l’animation d’un formateur expert, l’ouverture d’une salle physique ou virtuelle,</li>
+      <li>l’ensemble des ressources mises à disposition dans l’espace apprenant et toute la gestion administrative liée à votre formation.</li>
+    </ul>
+    <p>Pour les formations à distance, nous prenons également à notre charge la mise à disposition quotidienne d’une hotline technique ainsi que l’adaptation pédagogique de la formation pour rendre votre expérience la plus fluide possible</p>
+  </div>
+
+  <!-- Bouton -->
+   <div class="">
+   <button
+    @click="showMore = !showMore"
+    class="mt-4 inline-block bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-[#880015] transition"
+    x-text="showMore ? 'Voir moins' : 'Voir plus'"
+  ></button>
+   </div>
+ 
+</div>
+
+  </div>
+
+  </article>
+ 
+
+ 
+
+ 
 </section>
 
 
