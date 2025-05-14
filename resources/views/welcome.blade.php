@@ -1183,12 +1183,159 @@ Les échanges à distance deviennent paradoxalement plus libres et plus faciles 
 
   </article>
  
-
- 
-
- 
 </section>
 
+
+<section class="bg-[#f1f5f9] py-20"> 
+  <div class="max-w-7xl mx-auto px-4">
+  <h1 class="font-bold text-4xl text-center pb-4">Recrutement & conseils RH</h1>
+  <p>Notre cabinet de recrutement et de conseil RH, MIATA FCR, mobilise toute son expertise pour l’élaboration de votre stratégie RH. Il vous accompagne dans vos prochains recrutements ainsi que dans la formation et le développement de vos équipes.</p>
+  <p>Nous partageons avec vous l’ADN du réseau, à savoir la bienveillance, le Leader Jardinier (autonomie et responsabilisation des collaborateurs comme facteur d’engagement et de performance).
+  Vous souhaitez affiner votre stratégie RH, optimiser l’organisation de vos équipes et gagner en efficacité ?</p>
+  <div class="text-cen mt-4">
+          <a href="#"
+              class="inline-block bg-[#a3021b] text-white hover:bg-[#ffbe58] text-sm sm:text-base px-6 py-3 sm:px-8 sm:py-4 font-bold rounded-lg transition">
+              Contactez-nous au +221 33 827 70 01
+          </a>
+  </div>
+ <h2 class="font-bold text-3xl py-4">NOS SERVICES</h2>
+ <h3 class="font-bold text-2xl">Recrutement de cadres et de talents</h3>
+ <p>MIATA vous propose un service de recrutement personnalisé, parce que les bons talents font la vraie réussite </p>
+
+ <div class="flex flex-col md:flex-row gap-8 py-12 ">
+  <!-- Carte 1 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/analyse-besoin.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Analyse du besoin</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Étude préalable</li>
+        <li>Création du profil candidat</li>
+        <li>Définition du mode de sourcing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Carte 2 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/sourcing-definition.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Sourcing et sélection de candidats</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Recherche via nos différents outils</li>
+        <li>Pré-sélection par entretiens téléphoniques</li>
+        <li>Rencontre des candidats présélectionnés</li>
+        <li>Réalisation de tests métiers ou de personnalité optionnels</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Carte 3 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/suivi-finalisation.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Suivi et finalisation</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Transmission des dossiers candidats qualifiés</li>
+        <li>Préparation des entretiens</li>
+        <li>Suivi du processus de recrutement</li>
+        <li>Accompagnement pendant toute la période d’intégration</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h3 class="font-bold text-2xl">Recrutement de cadres et de talents</h3>
+<p>Notre cabinet vous accompagne dans la transformation et l’optimisation de l’ensemble de vos processus RH</p>
+
+<div class="flex flex-col md:flex-row gap-8 py-12">
+  <!-- Carte 1 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/seduire.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Séduire</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Audit et transformation des processus de recrutement</li>
+        <li>Développement de la marque employeur</li>
+        <li>Réussite de l’intégration des collaborateurs</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Carte 2 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/fideliser.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Fidéliser</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Benchmark salariaux</li>
+        <li>Favorisation de la proximité managériale</li>
+        <li>Process d’évaluation 360°</li>
+        <li>Team building</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Carte 3 -->
+  <div class="flex-1 bg-white rounded-lg shadow hover:shadow-lg transition flex flex-col items-center text-center p-4">
+    <div class="flex flex-col items-center flex-1">
+      <img src="{{ asset('build/assets/images/developper.png') }}" class="w-20 h-20 mb-4" alt="">
+      <h4 class="font-bold mb-2">Développer</h4>
+      <ul class="list-disc list-inside text-left">
+        <li>Ateliers de codéveloppement</li>
+        <li>Bilan de compétences et Outplacement</li>
+        <li>Gestion prévisionnelle des emplois et des compétences (GPEC)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2 class="font-bold text-3xl py-4 uppercase">Nos offres</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 py-8">
+  <!-- Carte -->
+  <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+    <img src="{{ asset('build/assets/images/formation1.jpg') }}" alt="" class="h-48 w-full object-cover rounded-md mb-4">
+    <h2 class="font-semibold mb-2">01 ASSISTANT RESSOURCES HUMAINES (H/F) – Dakar, SN</h2>
+    <a href="#" class="mt-auto bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-red-700">Postuler</a>
+  </div>
+
+  <!-- Carte -->
+  <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+    <img src="{{ asset('build/assets/images/formation2.jpg') }}" alt="" class="h-48 w-full object-cover rounded-md mb-4">
+    <h2 class="font-semibold mb-2">01 RESPONSABLE COMMERCIAL (H/F) – Dakar, SN</h2>
+    <a href="#" class="mt-auto bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-red-700">Postuler</a>
+  </div>
+
+  <!-- Carte -->
+  <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+    <img src="{{ asset('build/assets/images/formation1.jpg') }}" alt="" class="h-48 w-full object-cover rounded-md mb-4">
+    <h2 class="font-semibold mb-2">03 COMMERCIAUX (H/F) – Dakar, SN</h2>
+    <a href="#" class="mt-auto bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-red-700">Postuler</a>
+  </div>
+
+  <!-- Carte -->
+  <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+    <img src="{{ asset('build/assets/images/formation1.jpg') }}" alt="" class="h-48 w-full object-cover rounded-md mb-4">
+    <h2 class="font-semibold mb-2">01 COMMUNITY MANAGER (H/F) – Dakar, SN</h2>
+    <a href="#" class="mt-auto bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-red-700">Postuler</a>
+  </div>
+
+  <!-- Carte -->
+  <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+    <img src="{{ asset('build/assets/images/formation1.jpg') }}" alt="" class="h-48 w-full object-cover rounded-md mb-4">
+    <h2 class="font-semibold mb-2">01 ASSISTANTE DE DIRECTION – Dakar, SN</h2>
+    <a href="#" class="mt-auto bg-[#a3021b] text-white px-4 py-2 rounded hover:bg-red-700">Postuler</a>
+  </div>
+</div>
+
+<h2 class="font-bold text-3xl py-4 uppercase">Charte de recrutement</h2>
+
+
+
+  
+
+
+</section>
 
 
 
